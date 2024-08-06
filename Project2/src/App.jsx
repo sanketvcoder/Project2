@@ -1,7 +1,11 @@
-import { react } from '@vitejs/plugin-react';
+import Main from './Conponents/Main/Main';
+import Navbar from './Conponents/Navbar/Navbar';
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <Navbar/>
+      <Main/>
+    </div>
   )
 }
 
